@@ -171,11 +171,11 @@ body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .feature3, body .Main
 }
 
 body a, body ul, body li, body p {
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Unbounded", sans-serif;
   font-size: 18px;
 }
 body h1, body h2, body h3 {
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Unbounded", sans-serif;
 }
 @keyframes ani {
   0% {
