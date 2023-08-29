@@ -1,0 +1,136 @@
+@media (max-width: 1200px) {
+    .help-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .colums-content{
+        grid-template-columns: 1fr 1fr !important;
+        .featch{
+            margin-bottom: 120px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .header{
+        grid-template-columns: 3fr 1fr !important;
+    }
+    .burger-menu{
+        display: block !important; 
+        position: relative;
+    }
+    .nav{
+        // display: none !important;
+        // position: relative;
+        width: 300px;
+        position: absolute;
+        left: -300px;
+        transition: transform .5s;
+        ul{
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 50px;
+            // left: -150%;
+            flex-direction: column !important;
+            justify-content: center;
+            align-items: center;
+            background: black;
+            color: white;
+            border-radius: 15px;
+            li{
+                margin-bottom: 10px;
+            }
+        }
+        
+    }
+    .btn-prime-header{
+        display: none !important;
+    }
+}
+
+@media (max-width: 700px) {
+        .colums{
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .btn-intro{
+                margin-bottom: 50px;
+            }
+            .One1{
+                display: none;
+            }
+            .One2{
+                position: relative !important;
+            }
+        }
+
+        .Managment-Section{
+            .card-container{
+                display: flex !important;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;   
+                .card{
+                    max-width: 300px;
+                    border-radius: 20px !important;
+                }
+            }
+        }
+    
+}
+
+@media (max-width: 600px) {
+    .colums-content{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .ContainerFeath{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .ferst-row{
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+        } 
+        .two-row{
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+        .columOne{
+            text-align: center;
+        }
+        img{
+            width: 300px;
+        }
+    }
+    .slider-container{
+        flex-direction: column !important;
+    }
+    .metric-container{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        .container-metric{
+            min-width: 100px;
+            max-width: 100px;
+        }
+    }
+    .footer-container{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
