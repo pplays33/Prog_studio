@@ -90,6 +90,22 @@ time, mark, audio, video {
     max-width: 300px;
     border-radius: 20px !important;
   }
+  .metric-container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .metric-container .container-metric {
+    min-width: 100px;
+    max-width: 100px;
+  }
+  .footer-container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
 }
 @media (max-width: 600px) {
   .colums-content {
@@ -125,22 +141,6 @@ time, mark, audio, video {
   .slider-container {
     flex-direction: column !important;
   }
-  .metric-container {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-  .metric-container .container-metric {
-    min-width: 100px;
-    max-width: 100px;
-  }
-  .footer-container {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
 }
 body .reviews-section .slider-container h2, body .Main-feath-sec .Main-feath .titel-feath, body .help-section .help-content .titel-section {
   text-align: center;
@@ -152,22 +152,6 @@ body .header .burger-menu .span3, body .header .burger-menu .span2, body .header
   position: absolute;
   left: 5px;
   background: white;
-}
-
-body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .feature3, body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .feature2, body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .feature1 {
-  height: 86px;
-  padding-left: 10px;
-  padding-right: 10px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: white;
-  opacity: 0;
-  border-radius: 10px;
-  overflow: hidden;
-  color: black;
 }
 
 body a, body ul, body li, body p {
@@ -188,6 +172,9 @@ body h1, body h2, body h3 {
 body .wrapper {
   margin: 0 auto;
   max-width: 1300px;
+}
+body .mb10 {
+  margin-bottom: 10px;
 }
 body .header {
   display: grid;
@@ -364,22 +351,17 @@ body .Main-feath-sec .Main-feath .ContainerFeath .columOne h2 {
   margin-bottom: 20px;
 }
 body .Main-feath-sec .Main-feath .ContainerFeath .columTwo {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .feature1 {
-  animation: ani 5.5s forwards;
-  left: -100px;
-  top: 149px;
-}
-body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .feature2 {
-  animation: ani 3.2s forwards;
-  left: -100px;
-  top: 269px;
-}
-body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .feature3 {
-  animation: ani 2.2s forwards;
-  left: -100px;
-  top: 300px;
+body .Main-feath-sec .Main-feath .ContainerFeath .columTwo .featch {
+  min-width: 300px;
+  max-width: 300px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
 }
 body .reviews-section .slider-container {
   display: flex;

@@ -80,6 +80,23 @@
                 }
             }
         }
+
+        .metric-container{
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+            .container-metric{
+                min-width: 100px;
+                max-width: 100px;
+            }
+        }
+        .footer-container{
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
     
 }
 
@@ -116,21 +133,5 @@
     }
     .slider-container{
         flex-direction: column !important;
-    }
-    .metric-container{
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
-        .container-metric{
-            min-width: 100px;
-            max-width: 100px;
-        }
-    }
-    .footer-container{
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
     }
 }
