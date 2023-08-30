@@ -251,7 +251,7 @@ body .header .btn-prime-header {
   background-color: #26514B;
 }
 body .intro-container {
-  background-image: url(/assets/img/Intro.png);
+  background-image: url(../assets/img/Intro.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
